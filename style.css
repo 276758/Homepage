@@ -1,70 +1,81 @@
-html,body{
-    height: 100px;
+body, html{
+   height: 100%;
 }
 body{
-    text-align: center;
-    background: rgb(252,208,226);
-    background: radial-gradient(circle, rgba(252,208,226,1) 26%, rgba(244,142,184,1) 80%); 
-    background-size: cover;
+   background: #fa7f72;
 }
-
-.bookmarks a{
-    text-decoration: none;
- }
- .bookmarks{
-    padding:30px;
- }
- .bookmarks i{
-    font-size:42px;
-    margin:0 20px;
-    color:#000000;
-    transition:.15s;
-    vertical-align: top;
- }
- .bookmarks i:hover{
-    font-size:72px;
-    position:relative;
- }
- 
-form{
-    width:100%;
-    max-width:600px;
-    margin:0 auto;
- }
- input{
-    width:100%;
-    font-size:32px;
-    margin:5px 0;
-    border:none;
-    padding:10px;
-    outline:none;
-    display:inline-block;
- }
- .search-bar{
-    width:80%;
-    margin-top: 100px;
- }
- .submit-button{
-    width:15%;
-    background:#000;
-    color:#FFF;
-    margin-top: 100px;
- }
 h1{
-    margin-top: 100px;
+   margin-top: 270px;
+   text-align: center;
+   font-size: 79px;
+   font-family: "Peddana", serif;
+   color: #721e1e;
+}
+form{
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
+input{
+   width:100%;
+   font-size:32px;
+   margin:5px 0;
+   border:none;
+   padding:10px;
+   outline:none;
+   display:inline-block;
+}
+.search-bar{
+   width:80%;
+}
+.submit-button{
+   width:15%;
+   background:#721e1e;
+   color:#FFF;
+}
+.bookmarks a{
+   text-decoration: none;
+}
+.bookmarks{
+   padding:30px;
+   clear:both;
+   text-align: center;
+   color:#721e1e;
+}
+.bookmarks i{
+   font-size:42px;
+   margin:0 20px;
+   color:#721e1e;
+   transition:.15s;
+   vertical-align: top;
+}
+.bookmarks i:hover{
+   font-size:72px;
+   position:relative;
+   color: #CB4343;
 }
 
 #note{
-    width:250px;
-    height:250px;
-    resize: none;
-    background:#e62674;
-    padding:15px;
-    border:none;
-    position: absolute;
-    bottom:50px;
-    left:50px;
-    font-family:sans-serif;
-   }
-   
- 
+   width:250px;
+   height:250px;
+   resize: none;
+   background:#721e1e;
+   color:#FFF;
+   border: 2px solid #000000;
+   padding:15px;
+   border:none;
+   position: absolute;
+   bottom:50px;
+   right:50px;
+   font-family:sans-serif;
+   opacity:0;
+  }
+  #calc{
+   opacity:0;
+   margin-left: 30px;
+  }
+#anydo{
+   text-align: center;
+   opacity:0;
+
+}
